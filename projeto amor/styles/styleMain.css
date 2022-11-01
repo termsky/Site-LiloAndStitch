@@ -1,0 +1,42 @@
+body{
+    background-image: url(../images/painelFundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    margin: 10px;
+}
+
+.cards{
+    background-color: #FFDEAD;
+    width: 20%;
+    height: 80%;
+    position: relative;
+    left: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.cards:hover{
+    width: 23%;
+
+}
+
+#ftStitch{
+    border-radius: 800px;
+    height: 200px;
+}
+
+#ftStitch:hover{
+    transform: translateY(-30px);
+}
